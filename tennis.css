@@ -1,0 +1,37 @@
+#mediaCancha{
+  border: 2px solid #fcfcfc;
+  width:0px;
+  height:497px;
+  margin-left: 450px;
+
+}
+.lineas{
+  width: 900px;
+  border: 2px solid #fcfcfc;
+}
+#lineaSuperior{
+  margin-top: -450px;
+}
+#lineaInferior{
+  margin-top: 390px;
+}
+.lineasCentrales{
+  width: 0px;
+  height: 394px;
+  border: 2px solid #fcfcfc;
+}
+.linea1{
+  margin-left: 200px;
+  margin-top: -398px;
+}
+.linea2{
+  margin-left: 700px;
+  margin-top: -398px;
+}
+.lineaCentro{
+  border: 2px solid #fcfcfc;
+  height: 0px;
+  width:500px;
+  margin-left: 200px;
+  margin-top: -200px;
+}

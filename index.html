@@ -5,27 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Canchas</title>
-  <!-- <link rel="stylesheet" href="main.css" id="canchaSoccer"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="soccer.css" id="canchaSoccer">
   <link rel="stylesheet" href="basquet.css">
+  <link rel="stylesheet" href="tennis.css">
 </head>
 <body>
-  <section  id="cancha">
-    <div id="porteriaIzquierda"></div>
-    <div id="porteriaDerecha"></div>
-    <div id="centroDeCancha"></div>
-    <div id="circulo"></div>
-    <div id="circuloDePorteriaIzquierda"></div>
-    <div id="circuloDePorteriaDerecha"></div>
-  </section>
+  <h1> Elige tu cancha <i class="fa fa-futbol-o"></i></h1>
+  <div id="botones">
+    <button id="soccer"></i> Soccer </button>
+    <button id="basquet"> BasquetBall</button>
+    <button id="tennis"> Tennis </button>
+  </div>
+  <div  class="canchas" id="cancha">
+    <div id="porteriaIzquierda" class="porterias"></div>
+    <div id="porteriaDerecha" class="porterias"></div>
+    <div id="centroDeCancha" class="lineaCentral"></div>
+    <div id="circulo" class="circuloCentral"></div>
+    <div id="circuloDePorteriaIzquierda" class='circulosDePorteria'></div>
+    <div id="circuloDePorteriaDerecha" class="circulosDePorteria"></div>
+  </div>
 
-  <section id="canchaBasket">
+  <div class="canchas" id="canchaBasket">
     <div id="trapecioIzquierdo"></div>
     <div id="centroDeCanchaBasquet"></div>
-    <div id="circuloBasquet"></div>
-    <div id="circuloCanchaIzquierda"></div>
-    <div id="circuloCanchaDerecha"></div>
-
-  </section>
+    <div id="circuloBasquet" class="circuloCentral"></div>
+    <div id="circuloCanchaIzquierda" class="circulosDeCancha"></div>
+    <div id="circuloCanchaDerecha" class="circulosDeCancha"></div>
+    <div class="circuloCentral circuloDerecho"></div>
+    <div class="circuloCentral circuloIzquierdo"></div>
+    <div class="lineasCancha" id="linCanchaIzq"></div>
+    <div class="lineasCancha" id="linCanchaDer"></div>
+  </div>
+  <div id="canchaTennis" class="canchas">
+    <div id="mediaCancha"></div>
+    <div id="lineaSuperior" class="lineas"></div>
+    <div id="lineaInferior" class="lineas"></div>
+    <div class="lineasCentrales linea1"></div>
+    <div class="lineasCentrales linea2"></div>
+    <div class="lineaCentro"></div>
+  </div>
 
 </body>
 </html>
