@@ -1,4 +1,4 @@
-#canchaBasket{
+#canchaBasquet{
   background: #f48c42;
 }
 
@@ -56,6 +56,33 @@
   margin-top: -106px;
 }
 #linCanchaDer{
-  margin-left: 750px;
+  margin-left: 748px;
   margin-top: -100px;
+}
+
+.lineasInclinadas{
+ width: 0px;
+ height: 160px;
+ border: 2px solid #000000;
+ position: absolute;
+}
+.lineaCancha1{
+  margin-left: 76px;
+  transform: rotate(106deg);
+  margin-top: -210px;
+}
+.lineaCancha2{
+  margin-left: 76px;
+  transform: rotate(-106deg);
+  margin-top: -65px;
+}
+.lineaCancha3{
+  margin-left: 824px;
+  transform: rotate(106deg);
+  margin-top: -62px;
+}
+.lineaCancha4{
+  margin-left: 824px;
+  transform: rotate(-106deg);
+  margin-top: -206px;
 }
