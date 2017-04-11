@@ -1,0 +1,60 @@
+#cancha{
+  width: 900px;
+  height: 500px;
+  border: 3px solid #555;
+  background: green;
+  margin-left: 175px;
+  margin-top: 50px;
+}
+
+#porteriaIzquierda{
+  width: 100px;
+  height: 200px;
+  border: 3px solid white;
+  background: green;
+  margin-top: 150px;
+}
+
+#porteriaDerecha{
+  width: 100px;
+  height: 200px;
+  border: 3px solid white;
+  background: green;
+  margin-left: 795px;
+  margin-top: -205px;
+
+}
+#circulo {
+     width: 100px;
+     height: 100px;
+     border-radius: 50% ;
+     border: 3px solid white;
+     margin-left: 400px;
+     margin-top: -300px;
+}
+
+#centroDeCancha {
+  border: 3px solid white;
+  width:0px;
+  height:495px;
+  margin-left: 450px;
+  margin-top: -358px;
+}
+
+#circuloDePorteriaIzquierda{
+     width: 50px;
+     height: 100px;
+     border: 3px solid white;
+     border-radius: 0 100px 100px 0;
+     margin-left: 105px;
+     margin-top: -100px;
+}
+
+#circuloDePorteriaDerecha{
+     width: 50px;
+     height: 100px;
+     border: 3px solid white;
+     border-radius: 100px 0  0 100px ;
+     margin-left: 742px;
+     margin-top: -110px;
+}
